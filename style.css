@@ -1,0 +1,49 @@
+html, body {
+  background-image: url('images.jpg');
+    width: 100%;
+    height: 100%;
+}
+#h1{
+   color: #ff00ff;
+   font-size: 20px;
+   font-weight: bold;
+   font-family:Rockwell, Calibri, Monospace;
+   font-style : oblique; }
+
+
+#container {
+    width: 0%;
+    height: 10%;
+    position: fixed;
+}
+
+#loading-container {
+    position: relative;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.bar {
+    width: 1200px;
+    height: 20px;
+    border: 1px red solid;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+#loading-isi {
+    background-image: url('download.jpg');
+    height: 100%;
+    width: 0%;
+}
+
+.start {
+    background-color: 
+        ;
+    color: red;
+    position:fixed;
+    top: 30%;
+    left: 90%;
+    transform: translate(-10%, -100%);
+}
